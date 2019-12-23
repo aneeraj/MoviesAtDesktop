@@ -8,10 +8,14 @@ import requests
 import db
 from io import BytesIO
 
-def on_click(event=None):
+photo_list = []
+
+
+def on_click(index):
     # `command=` calls function without argument
     # `bind` calls function with one argument
-    print(i)
+    print(index)
+    print(db.myNameList[index])
     print("image clicked")
 
 
@@ -30,7 +34,7 @@ class ScrollableFrame(ttk.Frame):
             )
         )
 
-        canvas.create_window((50, 0), window=self.scrollable_frame, anchor="nw")
+        canvas.create_window((40, 0), window=self.scrollable_frame, anchor="nw")
         canvas.config(background="blue")
 
         canvas.configure(yscrollcommand=scrollbar.set)
@@ -48,7 +52,7 @@ def inter():
     window.configure(background='black')
     nr = 3  # number of rows
     nc = 3  # number of columns
-    topimg = "logo.png"
+    topimg = "Images/logo.png"
     imag = tk.PhotoImage(file=topimg)
     #la = tk.Label(window, image=imag)
     #la.pack(side="top")
@@ -59,7 +63,6 @@ def inter():
     #p = 'images.png'
     #img = PhotoImage(file=p)
     myimg=[]
-    photo_list = []
     basewidth = 125
     for img in db.myList:
         response = requests.get(img)
@@ -71,11 +74,13 @@ def inter():
         #img = img.zoom(25)  # with 250, I ended up running out of memory
         #img = img.subsample(42)  # mechanically, here it is adjusted to 32 instead of 320
         myimg.append(img)
+    #labels = []
     #for i in range(nr * nc):
     for i in range(0, len(myimg)):
         l = tk.Label(frame.scrollable_frame, image=myimg[i])
-        l.bind('<Button-1>', on_click)
+        index = len(photo_list)
         photo_list.append(l)
+        l.bind('<Button-1>', lambda event, i=index: on_click(i))
         photo_list[-1].grid(row=i // nc, column=i % nc)
     frame.pack(pady=(20, 10))
     window.mainloop()

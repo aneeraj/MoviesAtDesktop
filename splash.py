@@ -14,7 +14,7 @@ if __name__ == '__main__':
     root.geometry("400x200+450+200")
     root.configure(background='black')
 
-    image_file = "logoss.png"
+    image_file = "Images/logoss.png"
     image = tk.PhotoImage(file=image_file)
     canvas = tk.Canvas(root, height=200, width=500, bg="black", highlightbackground="#c91833", highlightthickness=0.5)
     canvas.create_image(200, 100, image=image)
