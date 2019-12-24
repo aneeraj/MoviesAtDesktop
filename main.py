@@ -7,9 +7,9 @@ from PIL import Image
 import requests
 import db
 from io import BytesIO
-
+import details
 photo_list = []
-
+global index
 
 def on_click(index):
     # `command=` calls function without argument
@@ -17,6 +17,7 @@ def on_click(index):
     print(index)
     print(db.myNameList[index])
     print("image clicked")
+    details.det()
 
 
 class ScrollableFrame(ttk.Frame):

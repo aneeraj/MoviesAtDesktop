@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef14566-8057-4048-919e-eaa720343b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Images/ic.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/icon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MoviesAt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MoviesAt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/details.py" beforeDir="false" afterPath="$PROJECT_DIR$/details.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/giphy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Images/giphy.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/images.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logos.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/logos.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logoss.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/logoss.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/splash.py" beforeDir="false" afterPath="$PROJECT_DIR$/splash.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Images" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -70,7 +61,7 @@
       <recent name="C:\Users\neeraja\PycharmProjects\MoviesAt\Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.details">
+  <component name="RunManager" selected="Python.splash">
     <configuration name="db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MoviesAt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +96,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/details.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MoviesAt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,9 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.splash" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.details" />
         <item itemvalue="Python.multipleframe" />
-        <item itemvalue="Python.splash" />
         <item itemvalue="Python.db" />
       </list>
     </recent_temporary>
@@ -210,22 +223,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="401" y="50" key="Github.UntrackedFilesDialog/0.0.1280.689@0.0.1280.689" timestamp="1576409695583" />
-    <state width="1259" height="208" key="GridCell.Tab.0.bottom" timestamp="1576633397206">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1899" height="287" key="GridCell.Tab.0.bottom" timestamp="1577172712269">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1259" height="208" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576633397206" />
-    <state width="1259" height="208" key="GridCell.Tab.0.center" timestamp="1576633397206">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1899" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1577172712269" />
+    <state width="1899" height="287" key="GridCell.Tab.0.center" timestamp="1577172712269">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1259" height="208" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576633397206" />
-    <state width="1259" height="208" key="GridCell.Tab.0.left" timestamp="1576633397206">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1899" height="287" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1577172712269" />
+    <state width="1899" height="287" key="GridCell.Tab.0.left" timestamp="1577172712269">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1259" height="208" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576633397206" />
-    <state width="1259" height="208" key="GridCell.Tab.0.right" timestamp="1576633397206">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1899" height="287" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1577172712269" />
+    <state width="1899" height="287" key="GridCell.Tab.0.right" timestamp="1577172712269">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1259" height="208" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576633397206" />
+    <state width="1899" height="287" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1577172712269" />
     <state width="1259" height="208" key="GridCell.Tab.1.bottom" timestamp="1576633397206">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -242,17 +259,19 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1259" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1576633397206" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1576409193840">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="213" y="0" key="SettingsEditor" timestamp="1577165541336">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1576409193840" />
+    <state x="213" y="0" key="SettingsEditor/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1577165541336" />
     <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1577093091695">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1577093091695" />
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1577093075687">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="506" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1577172265394">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1577093075687" />
+    <state x="506" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1577172265394" />
   </component>
 </project>
